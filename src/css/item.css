@@ -1,0 +1,54 @@
+.list-wrap {
+  margin: 150px auto;
+  width: 500px;
+  height: auto;
+}
+
+.itembox {
+  border: 1px solid #333;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.item-inputbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-input {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.item-addbtn {
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+.item-addbtn:hover {
+  color: red;
+}
+
+.item-addbtn:active {
+  transform: scale(0.9);
+}
+
+.item-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  gap: 20px;
+}
+
+.item-name {
+  font-size: 30px;
+}
+
+.item-price {
+  font-size: 20px;
+}
